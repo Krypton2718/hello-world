@@ -1,0 +1,56 @@
+\documentclass[12pt,a4paper]{scrartcl}
+\usepackage[utf8]{inputenc}
+%\usepackage[latin1]{inputenc} %  Alternativ unter Windows
+\usepackage[T1]{fontenc}
+\usepackage[paper=a4paper,
+	left=25mm,
+	right=25mm,
+	top=25mm,
+	bottom=20mm]{geometry}
+\usepackage[nottoc]{tocbibind}
+\usepackage[ngerman]{babel}
+\usepackage[pdftex]{graphicx}
+\usepackage{latexsym}
+\usepackage{amsmath,amssymb,amsthm,amsfonts}
+\usepackage{mathtools}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+\usepackage{float}
+\newcommand{\R}{\mathbb{R}}
+
+\DeclareMathOperator{\dive}{div}
+\newtheorem{Satz}{Satz}[section]\newtheorem{Definition}[Satz]{Definition} 
+\newtheorem{Lemma}{Lemma}		                 
+\newtheorem{Korollar}[Satz]{Korollar}
+\newtheorem{Proposition}[Satz]{Proposition}                  
+\newtheorem{examples}[Satz]{Beispiel}
+\let\oldexamples\examples
+\renewcommand{\examples}{\oldexamples\normalfont}
+\newtheorem*{notation}{Notation}
+\let\oldnotation\notation
+\renewcommand{\notation}{\oldnotation\normalfont}
+\newtheorem*{remark}{Bemerkung}
+\let\oldremark\remark
+\renewcommand{\remark}{\oldremark\normalfont}                  
+
+
+\usepackage{csquotes}[german = quotes]
+\usepackage{xcolor}
+\newcommand*\diff{\mathop{}\!\mathrm{d}}
+\DeclareMathOperator{\conv}{conv}
+\DeclareMathOperator{\spann}{span}
+\DeclareMathOperator{\Jacobi}{D}
+\DeclareMathOperator{\diam}{diam}
+\definecolor{Mygreen}{RGB}{0,128,0}
+\newcommand{\defi}[1]{\textcolor{Mygreen}{#1}}
+\renewcommand{\phi}{\varphi}
+\renewcommand{\epsilon}{\varepsilon}
+                              
+\numberwithin{equation}{section} 
+
+% Praktikumsbericht nummer setzen
+\newcommand{\BerichtNR}{1}
+
+\begin{document}
+	Nur ein Test
+\end{document}
